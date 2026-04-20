@@ -21,11 +21,11 @@ else if (guess < target)
   
 else
   printf("%d == ?\n", guess);
-  } 
+
+printf("%d", count);
+} 
   
   while (guess != target);
-
-  printf("%d", count);
     
   return 0;
 }
