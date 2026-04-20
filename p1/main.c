@@ -23,7 +23,7 @@ else
   printf("%d == ?")
   } while guess != target;
 
-  printf("%d", count)
+  printf("%d", count);
     
   return 0;
 }
