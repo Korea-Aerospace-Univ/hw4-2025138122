@@ -10,18 +10,20 @@ int main(void)
 
 do
 {
-  scanf("%d", guess);
+  scanf("%d", &guess);
   count++;
   
  if (guess > target)
    printf("%d>?\n", guess);
    
-else if (guess < targer)
+else if (guess < target)
   printf("%d<?\n", guess);
   
 else
-  printf("%d == ?")
-  } while guess != target;
+  printf("%d == ?\n", guess);
+  } 
+  
+  while (guess != target);
 
   printf("%d", count);
     
