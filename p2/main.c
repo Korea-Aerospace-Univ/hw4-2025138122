@@ -5,7 +5,7 @@ int main(void)
 int N=0;
 scanf("%d", &N);
 
-int lc = 0, dm = 0;
+int lc = 0, dc = 0;
 int ml = 0, md = 0;
 
 char ch ;
@@ -30,7 +30,7 @@ else
 lc = 0;
 dc = 0;
 }
-if (lc > md)
+if (lc > ml)
 {
   ml = lc;
 }
