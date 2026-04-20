@@ -2,8 +2,17 @@
 
 int main(void)
 {
-int n=0;
-char str[100];
+int N=0;
+scanf("%d", &N);
+
+int lc = 0, dm = 0;
+int ml = 0, md = 0;
+
+char ch ;
+
+for(int i = 0; i < N; i++)
+{
+scanf(" %c", &ch
 
 scanf("%d", &n
 scanf("%d", &n);
