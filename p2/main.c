@@ -12,7 +12,7 @@ char ch = 0;
 
 for(int i = 0; i < N; i++)
 {
-scanf(" %c", &ch);
+if (scanf(" %c", &ch) != 1) break;
 
 if(ch >= 'a' && ch <='z')
 {
