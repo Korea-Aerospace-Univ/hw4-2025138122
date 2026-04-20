@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  int target = 0;
+  int guess = 0;
+  int count = 0;
+
+  scanf("%d", &target);
+
+do
+{
+  scanf("%d", guess);
+  count++;
+  
+ if (guess > target)
+   printf("%d>?\n", guess);
+   
+else if (guess < targer)
+  printf("%d<?\n", guess);
+  
+else
+  printf("%d == ?")
+  } while guess != target;
+
+  printf("%d", count)
+  return 0;
+}
