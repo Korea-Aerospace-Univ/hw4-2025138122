@@ -20,7 +20,7 @@ else if (guess < target)
   printf("%d<?\n", guess);
   
 else
-  printf("%d == ?\n", guess);
+  printf("%d==?\n", guess);
 }  while (guess != target);
 
    printf("%d\n", count);
