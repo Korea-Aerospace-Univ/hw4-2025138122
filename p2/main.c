@@ -12,7 +12,7 @@ char ch = 0;
 
 for(int i = 0; i < N; i++)
 {
-if (scanf(" %c", &ch) != 1) break;
+scanf(" %c", &ch);
 
 if(ch >= 'a' && ch <='z')
 {
@@ -40,7 +40,7 @@ if (dc > md)
 }
 }
   printf("%d\n", ml);
-  printf("%d\n", dc);
+  printf("%d\n", md);
   
 return 0;
 }
