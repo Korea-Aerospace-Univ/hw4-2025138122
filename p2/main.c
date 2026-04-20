@@ -12,9 +12,35 @@ char ch ;
 
 for(int i = 0; i < N; i++)
 {
-scanf(" %c", &ch
+scanf(" %c", &ch);
 
-scanf("%d", &n
-scanf("%d", &n);
-return 0;
+if(ch >= 'a' && ch <='z')
 {
+lc++; 
+  dc = 0;
+}
+
+else if (ch >= '0' && ch <= '9')
+{
+  dc++;
+  lc = 0;
+}
+else
+{
+lc = 0;
+dc = 0;
+}
+if (lc > md)
+{
+  ml = lc;
+}
+if (dc > md)
+{
+  md = dc;
+}
+}
+  printf("%d\n", ml);
+  printf("%d\n", dc);
+  
+return 0;
+}
