@@ -24,5 +24,6 @@ else
   } while guess != target;
 
   printf("%d", count)
+    
   return 0;
 }
